@@ -7,7 +7,7 @@ from unrar import rarfile
 import numpy as np
 import cv2
 
-import autocompress as ac
+import autocompress_6deep_reluout as ac
 
 # Globals
 tmp = "/mnt/video_rfs"
