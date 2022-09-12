@@ -9,13 +9,8 @@ This project, in its current form, was completed in 2018 using the old, horrible
 The autoencoder was trained on a portion of the HMDB51 video dataset. This dataset consists of thousands of low-res videos of people moving around and doing fun stuff engineers don't have time to do. The specific subset of this dataset was people performing handstands.
 Some of our results were pretty good:
 
-<figure>
-  <img
-  src="GIFs/31668_reconstructed_loss_192.44221_reluout.npy.gif"
-  alt="Test">
-  <figcaption>Ground Truth</figcaption>
-</figure>
-
+|![alt text](GIFs/handstand_groundtruth_reluout.npy.gif)|![alt text](GIFs/31668_reconstructed_loss_192.44221_reluout.npy.gif)|
+|Ground Truth Video | Reconstructed Video Clip|
 
 
 
