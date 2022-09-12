@@ -7,13 +7,16 @@ This project, in its current form, was completed in 2018 using the old, horrible
 
 ###Results and Excuses
 The autoencoder was trained on a portion of the HMDB51 video dataset. This dataset consists of thousands of low-res videos of people moving around and doing fun stuff engineers don't have time to do. The specific subset of this dataset was people performing handstands.
-Some of our results were pretty good:
+Some of our results were pretty decent:
 
 | Ground Truth Video | Reconstructed Video Clip |
 |------|------|
-| ![alt text](GIFs/handstand_groundtruth.npy.gif) | ![alt text](GIFs/31668_reconstructed_loss_192.44221_reluout.npy.gif) |
+| ![alt text](GIFs/handstand_groundtruth.npy.gif) | ![alt text](GIFs/handstand_reconstructed_loss_207.78262.npy.gif) |
 
+Some less so:
 
-
+| Ground Truth Video | Reconstructed Video Clip |
+|------|------|
+| ![alt text](GIFs/Theblade_groundtruth.npy.gif) | ![alt text](GIFs/theblade_reconstructed_loss_221.99663.npy.gif) |
 
 I would have continued to refine the project, but I was using a lab desktop where I was stuck in a cycle of obsessively tweaking hyperparameters and watching for "number go down," so they changed to password on the Linux partition I was using.
