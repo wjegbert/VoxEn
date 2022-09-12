@@ -1,4 +1,5 @@
 #!/bin/python3
+#This pulls a video from a .rar, converts it to a multidimensional numpy array, then sends it to the autoencoder for processing.
 
 from os import walk as walk_dir, remove as rmv
 from unrar import rarfile
