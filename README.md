@@ -18,9 +18,9 @@ Some less so:
 
 | Ground Truth Video | Reconstructed Video Clip |
 |------|------|
-| ![alt text](GIFs/Theblade_groundtruth.npy.gif) | ![alt text](GIFs/theblade_reconstructed_loss_221.99663.npy.gif) |
+| ![alt text](GIFs/pizzatime_groundtruth.npy.gif) | ![alt text](GIFs/pizzatime_reconstructed_loss_881.7008.npy.gif) |
 
-One thing I noticed is that video clips with less overall optical flow had better reconstruction fidelity than clips with more moving pixels, which is true for traditional video codecs as well. You can see this above, as the samuri clip has a panning camera whereas the handstand clip has a static background.
+One thing I noticed is that video clips with less overall optical flow had better reconstruction fidelity than clips with more moving pixels, which is true for traditional video codecs as well. You can see this above, as the pizza clip has a moving camera whereas the handstand clip has a static background.
 The trained network was surprising well generalized despite being trained on only a subset of the video files, specifically the subfile for handstands. Feeding the network videos of unrelated motions resulted in surpising un-handstand-y results:
 | Ground Truth Video | Reconstructed Video Clip |
 |------|------|
