@@ -1,5 +1,5 @@
 # VoxEn
-
+ A proof-of-concept video compression autoencoder using volumetric convolution.
 
 ## Justification and Scope
 The purpose of this project is to develop a working, novel (circa 2018) video compression system using machine learning. While there were a number of research groups working on video compression focused on a combination of recurrent networks or a combination of recurrent and convolutional nodes, this project relies exclusively on convolution to compress video by converting video files into a "cube" of pixels then using 3d convolutional kernals, effectively treating the temporal information as another spatial dimension. Compression was achieved in the encoder network by setting a longer stride across this third quasispatial dimension, allowing the autoencoder to learn to eliminate redundant inter-frame data. The decoder network performs deconvolution (convolutional transpose) using the inverse of the dimensions and strides used for the compressive stage.
