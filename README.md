@@ -6,7 +6,7 @@ The purpose of this project is to develop a working, novel (circa 2018) video co
 This project, in its current form, was completed in 2018 using an old, horrible version of Tensorflow 1, in part because that was the style which had the most documentation available at the time, and in part because I hate myself. This was a project I had no qualifications for and no business working on, and I had no idea what I was doing most of the time. But ain't that always the way. 
 
 ## Results and Excuses
-The autoencoder was trained on a portion of the HMDB51 video dataset. This dataset consists of thousands of low-res videos of people moving around and doing fun stuff engineers don't have time to do. The videos were truncated to 64 frames of 240x320 because anything more would cause the lab desktop we were using to burst into flames.
+The autoencoder was trained on a portion of the HMDB51 video dataset. This dataset consists of thousands of low-res videos of people moving around and doing fun stuff engineers don't have time to do. The videos were truncated to 64 frames of 240x320 because anything more would cause the lab desktop we were using to burst into flames. The encoder output was 80x60x1, so our compression ratio is 1024:1 for these videos.
 
 Some of our results were pretty decent:
 
